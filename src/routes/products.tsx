@@ -4,7 +4,7 @@ import { SiteFooter } from "@/components/SiteFooter";
 import dairy from "@/assets/dairy-outlet.jpg";
 import maize from "@/assets/maize-field.jpg";
 import beans from "@/assets/beans-bags.jpg";
-import cows from "@/assets/cows-trough.jpg";
+import rice from "@/assets/gallery/g04.jpg";
 
 export const Route = createFileRoute("/products")({
   head: () => ({
@@ -22,7 +22,7 @@ const products = [
   { img: dairy, title: "Fresh & processed milk", desc: "Sourced daily from farmer communities in Luwero, Nakaseke and Nakasongola; sold at our Kasana–Luwero dairy retail outlet." },
   { img: maize, title: "Maize", desc: "Cleanly sorted and properly dried maize from our out-grower network — supplied in bulk to wholesalers and processors." },
   { img: beans, title: "Beans & ground nuts", desc: "Premium-grade legumes handled with strict post-harvest standards for consistent quality." },
-  { img: cows, title: "Rice", desc: "Quality rice from selected smallholder farmers trained in modern agronomy and post-harvest handling." },
+      { img: rice, title: "Rice", desc: "Quality rice from selected smallholder farmers trained in modern agronomy and post-harvest handling." },
 ];
 
 function Products() {

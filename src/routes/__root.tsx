@@ -72,14 +72,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Musikuli Dairies Ltd" },
+      { name: "description", content: "Quality milk and agro produce from Luwero, Uganda." },
+      { name: "author", content: "Musikuli Dairies Ltd" },
+      { property: "og:title", content: "Musikuli Dairies Ltd" },
+      { property: "og:description", content: "Quality milk and agro produce from Luwero, Uganda." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:site", content: "@MusikuliDairies" },
     ],
     links: [
       {
