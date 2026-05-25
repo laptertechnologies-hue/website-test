@@ -70,7 +70,7 @@ function Home() {
               </Link>
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-4 self-end">
+          <div className="grid grid-cols-1 gap-4 self-end sm:grid-cols-2">
             <Stat value="200+" label="Smallholder families supported" />
             <Stat value="60+" label="Direct jobs created" />
             <Stat value="3" label="Districts sourced from" />
