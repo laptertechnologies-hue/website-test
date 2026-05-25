@@ -57,7 +57,7 @@ function Initiatives() {
             <p className="mt-4 text-muted-foreground">
               Our social agriculture enterprise trains farmers in modern agronomy, post-harvest handling and financial literacy. We also provide tailored agriculture finance and run a learning centre at our Nsozibirye zero-grazing farm.
             </p>
-            <div className="mt-8 grid grid-cols-3 gap-4">
+            <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-3">
               <div className="rounded-xl bg-card p-5 text-center ring-1 ring-border">
                 <div className="text-2xl font-bold text-primary">200+</div>
                 <div className="mt-1 text-xs text-muted-foreground">Smallholder families</div>
